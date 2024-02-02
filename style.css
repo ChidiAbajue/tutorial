@@ -86,6 +86,10 @@ input {
 	margin-bottom: 10px;
 	background-color: #dddddd;
 }
+input::placeholder {
+    color: #888; /* Set the color of the placeholder text */
+    font-style: italic; /* Optionally set the font style */
+}
 button {
 	margin-top: 20px;
 	background-color: #10bf5c;
